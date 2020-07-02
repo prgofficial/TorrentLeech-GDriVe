@@ -1,5 +1,5 @@
-# for support join here [TorrentLeech-Gdrive](https://telegram.dog/torrentleechgdrivesupport)
-# working example group [Leech Here](https://telegram.dog/torrentleechgdrive)
+# For Support join here [MoviezOnlySupport](https://telegram.dog/moviesonlysupport)
+# working example group [Leech Here](https://telegram.dog/moleechtg)
 
 # Telegram Torrent Leecher 🔥🤖
 
@@ -17,51 +17,12 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
 
 ### Credit goes to SpEcHiDe for his Publicleech repo.
 
-## installing
+## Installing
 
 ### The Easy Way
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-### The Legacy Way
-Simply clone the repository and run the main file:
-
-```sh
-git clone https://github.com/SpEcHiDe/PublicLeech.git
-cd PublicLeech
-virtualenv -p /usr/bin/python3 venv
-. ./venv/bin/activate
-pip install -r requirements.txt
-# <Create config.py appropriately>
-python3 -m tobrot
-```
-
-### an example config.py 👇
-```py
-from tobrot.sample_config import Config
-
-class Config(Config):
-  TG_BOT_TOKEN = ""
-  APP_ID = 6
-  API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
-  AUTH_CHANNEL = -1001234567890
-```
-
-### Variable Explanations
-
-##### Mandatory Variables
-
-* `TG_BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
-
-* `APP_ID`
-* `API_HASH`: Get these two values from [my.telegram.org/apps](https://my.telegram.org/apps).
-  * N.B.: if Telegram is blocked by your ISP, try our [Telegram bot](https://telegram.dog/UseTGXBot) to get the IDs.
-
-* `AUTH_CHANNEL`: Create a Super Group in Telegram, add `@GoogleIMGBot` to the group, and send /id in the chat, to get this value.
-
-* `RCLONE_CONFIG`: Create the rclone config using the rclone.org and read the rclone section for the next.
-
-* `DESTINATION_FOLDER`: Name of your folder in ur respective drive where you want to upload the files using the bot.
 
 ##### Set Rclone
 
