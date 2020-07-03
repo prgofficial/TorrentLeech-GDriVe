@@ -1,6 +1,0 @@
-type = drive
-client_id = 559658362181-5105r9e0mtfctrlkk8dmq8ej3iopmfc0.apps.googleusercontent.com
-client_secret = VOqihw0cqy2V3oXPC3dDo7UR
-scope = drive
-token = {"access_token":"ya29.a0AfH6SMA0zZmcJAY2HRao_Et9YqPrS_pRq0hZBdVEyolo4TUIP_1YmR6DJx4vWzd-00MbrlZdnL0zmH3sTRn39sYOYhWVseTsEqKXcjQBjsfleu4SGyTfpeTJjLkAxmaUCYkIsYuEsj6p408ncZEM3QZVCxnA7c7-TeI","token_type":"Bearer","refresh_token":"1//0gOjRX0SzsMVHCgYIARAAGBASNwF-L9IrdBJRTYn1glXXBVUqUvOES7H4GBOe3UDhy7m51JLvJcROd8Hy9XvFQsI6e8zJsHQ88cw","expiry":"2020-07-02T10:17:13.1076684+02:00"}
-team_drive = 0AAHdpHyqcxraUk9PVA
