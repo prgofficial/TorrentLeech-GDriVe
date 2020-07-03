@@ -1,5 +1,5 @@
-# For Support join here [MoviezOnlySupport](https://telegram.dog/moviesonlysupport)
-# working example group [Leech Here](https://telegram.dog/moleechtg)
+# For Support join here [MoviezOnlySupport](https://telegram.dog/moviezonlysupport)
+# Working example group [Leech Here](https://telegram.dog/leechtorrentmoviesonly)
 
 # Telegram Torrent Leecher 🔥🤖
 
@@ -13,7 +13,6 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
     ✓ Untar
     ✓ Custom file name
     ✓ Custom commands
-    ✓ 
 
 ### Credit goes to SpEcHiDe for his Publicleech repo.
 
@@ -24,85 +23,40 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prgofficial/TorrentLeech-GDriVe)
 
 
+### YOU NEED UNLIMITED TEAM/SHARE DRIVE IN ORDER TO USE THE GDRIVE FUNCIONS Flawlessly (normal GDRIVE has 15 gb of storage only)
+
 ##### Set Rclone
 
-1. Set Rclone locally by following the official repo : https://rclone.org/docs/
-2. Get your `rclone.conf` file.
-will look like this
-```
-[NAME]
-type = 
-scope =
-token =
-client_id = 
-client_secret = 
+1. Download Rclone from Here > [DOWNLOAD](https://rclone.org/downloads/)
+2. Extract and run cmd from the Extracted folder.
+3. RUN rclone config and follow the onscreen instructions!
+4. If done Correctly, you'll get some thing like this in the cmd ;
 
-```
-3. Only copy the config of drive u want to upload file.
-4. Copy the entries of `rclone.conf` 
-5. Your copied config should look like this:
- ```
-type = 
-scope =
-token =
-client_id = 
-client_secret = 
+    type = drive
+    client_id = 55965362181-5105rlkk8dq8ej3iopmfc0.apps.googleusercontent.com
+    client_secret = VOqihw0cqXPCdDo7UR
+    scope = drive
+    token = {"access_token":"ya29.a0ASMA0zZmcJHRao_Et9YqPrSRq0hZBdVElo4TUIP_1R6DJx4vWzd-        00MbrlZdmH3sTRnOYhseTsEqKXcBfleu4yTfpeTJjAmaUCYkIsYuEsj608ncZEM3QZVnjnA7c7-    TeI","token_type":"Bearer","refresh_token":"1//0gOjRXzVHCgYIARAAGBASNwF-L9IrdBJRlXXUqUvOES7H4Ge3UDhy7mJLvJcROd9XQsI6e8zJsHQ88cw","expiry":"2020-07- 02T10:17:13.1076684+02:00"}
+    team_drive = 0AAHdpck9PVA 
 
-and everythin except `[NAME]`
+5. Copy these entries from CMD and paste it in ' RCLONE_CONFIG ' {heroku var}  - Don't try to copy paste the above string; It wont work 🤣.
 
-```
 
-6. Paste copied config in `RCLONE_CONFIG`
+##### Set IndexURL
 
-7. Hit deploy button.
-8. Examples:-
-<p align="center">
+1. Go to https://gdindex-code-builder.glitch.me/, and follow its instructions. Copy the code!
+2. Go to https://dash.cloudflare.com/c8bf985554bb03b455f683f8cafe25f2/workers/new and login/signup.
+3. Paste the code in script section. Then save and deploy.
+4. You'll get your GDIndex link.
+5. Add new key in HEROKU Vars - ' INDEX_LINK '  and add the above index link as value
 
-  <img src="https://raw.githubusercontent.com/gautamajay52/TorrentLeech-Gdrive/master/rclone.jpg" width="470" height="150">
-
-</p>
+HOPE Everything will be working by now!
+For any support ping me here  >  [MoviezOnlySupport](https://telegram.dog/moviezonlysupport)
 
 ## FAQ
 
-##### Optional Configuration Variables
-
-* `DOWNLOAD_LOCATION`
-
-* `MAX_FILE_SIZE`
-
-* `TG_MAX_FILE_SIZE`
-
-* `FREE_USER_MAX_FILE_SIZE`
-
-* `MAX_TG_SPLIT_FILE_SIZE`
-
-* `CHUNK_SIZE`
-
-* `MAX_MESSAGE_LENGTH`
-
-* `PROCESS_MAX_TIMEOUT`
-
-* `ARIA_TWO_STARTED_PORT`
-
-* `EDIT_SLEEP_TIME_OUT`
-
-* `MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START`
-
-* `FINISHED_PROGRESS_STR`
-
-* `UN_FINISHED_PROGRESS_STR`
-
-* `TG_OFFENSIVE_API`
-
-* `CUSTOM_FILE_NAME`
-
-* `LEECH_COMMAND`
-
-* `YTDL_COMMAND`
-
-* `TELEGRAM_LEECH_COMMAND_G`
-
 * `INDEX_LINK`: (Without `/` at last of the link, otherwise u will get error) During creating index, plz fill `Default Root ID` with the id of your `DESTINATION_FOLDER` after creating. Otherwise index will not work properly.
+
 ## Available Commands
 
 * `/ytdl`: This command should be used as reply to a [supported link](https://ytdl-org.github.io/youtube-dl/supportedsites.html)
@@ -136,26 +90,7 @@ and everythin except `[NAME]`
 * `/tleech untar`: This will untar the .tar telegram file and upload to drive.
 
 
-* [Only work with direct link for now]It is like u can add custom name as prefix of the original file name.
-Like if your file name is `gk.txt` uploaded will be what u add in `CUSTOM_FILE_NAME` + `gk.txt`
 
-Only works with direct link.No magnet or torrent.
-
-And also added custom name like...
-
-You have to pass link as 
-`www.download.me/gk.txt | new.txt`
-
-the file will be uploaded as `new.txt`.
-
-
-## How to Use?
-
-* send any one of the available command, as a reply to a valid link.
-
-* if file is larger than 1500MB, [read this](https://t.me/c/1434259219/113).
-
-* if file is a TAR archive, [read this](https://t.me/c/1434259219/104) to know how to uncompress.
 
 
 ## Credits, and Thanks to
