@@ -126,7 +126,7 @@ async def upload_to_tg(
 
 async def upload_to_gdrive(file_upload, message):
     await asyncio.sleep(EDIT_SLEEP_TIME_OUT)
-    await message.edit_text("🔊 Now Uploading to ☁️ cloud...")
+    await message.edit_text("Uploading to ☁️ CLOUD ☁️")
     subprocess.Popen(('touch', 'rclone.conf'), stdout = subprocess.PIPE)
     with open('rclone.conf', 'a', newline="\n") as fole:
         fole.write("[DRIVE]\n")
@@ -161,7 +161,7 @@ async def upload_to_gdrive(file_upload, message):
             button.append([pyrogram.InlineKeyboardButton(text="ℹ️ FileIndexUrl ℹ️", url=f"{tam_link}")])
         button_markup = pyrogram.InlineKeyboardMarkup(button)
         await asyncio.sleep(EDIT_SLEEP_TIME_OUT)
-        await message.edit_text(f"🤖: {file_upload} has been Uploaded successfully to your cloud 🤒", reply_markup=button_markup)
+        await message.edit_text(f"🤖: {file_upload} has been Uploaded to your cloud 🥳", reply_markup=button_markup)
         #await message.edit_text(f"""🤖: {file_upload} has been Uploaded successfully to your cloud 🤒\n\n☁️ Cloud URL:  <a href="{gau_link}">FileLink</a>\nℹ️ Direct URL:  <a href="{tam_link}">IndexLink</a>""")
         os.remove(file_upload)
     else:
@@ -196,7 +196,7 @@ async def upload_to_gdrive(file_upload, message):
             button.append([pyrogram.InlineKeyboardButton(text="ℹ️ FolderIndexUrl ℹ️", url=f"{tam_link}")])
         button_markup = pyrogram.InlineKeyboardMarkup(button)
         await asyncio.sleep(EDIT_SLEEP_TIME_OUT)
-        await message.edit_text(f"🤖: Folder has been Uploaded successfully to {tt} in your cloud 🤒", reply_markup=button_markup)
+        await message.edit_text(f"🤖: Folder has been Uploaded successfully to {tt} in your cloud 🥳", reply_markup=button_markup)
         #await asyncio.sleep(EDIT_SLEEP_TIME_OUT)
         #await message.edit_text(f"""🤖: Folder has been Uploaded successfully to {tt} in your cloud 🤒\n\n☁️ Cloud URL:  <a href="{gau_link}">FolderLink</a>\nℹ️ Index Url:. <a href="{tam_link}">IndexLink</a>""")
         shutil.rmtree(file_upload)
