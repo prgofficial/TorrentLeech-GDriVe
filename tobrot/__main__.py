@@ -93,7 +93,7 @@ if __name__ == "__main__" :
     #
     status_message_handler = MessageHandler(
         status_message_f,
-        filters=Filters.command(["status@GDRIVE_DX_BOT"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["status"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(status_message_handler)
     #
@@ -125,7 +125,7 @@ if __name__ == "__main__" :
     #
     upload_document_handler = MessageHandler(
         upload_document_f,
-        filters=Filters.command(["upload@GDRIVE_DX_BOT"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["upload"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(upload_document_handler)
 
@@ -154,13 +154,13 @@ if __name__ == "__main__" :
     #
     save_thumb_nail_handler = MessageHandler(
         save_thumb_nail,
-        filters=Filters.command(["savethumb@moleechtgbot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["savethumb"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(save_thumb_nail_handler)
     #
     clear_thumb_nail_handler = MessageHandler(
         clear_thumb_nail,
-        filters=Filters.command(["delthumb@moleechtgbot"]) & Filters.chat(chats=AUTH_CHANNEL)
+        filters=Filters.command(["delthumb"]) & Filters.chat(chats=AUTH_CHANNEL)
     )
     app.add_handler(clear_thumb_nail_handler)
     #
