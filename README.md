@@ -14,7 +14,7 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
     ✓ Custom file name
     ✓ Custom commands
 
-### Credit goes to SpEcHiDe for his Publicleech repo.
+### Credit goes to SpEcHiDe for his [Publicleech](https://github.com/SpEcHiDe/PublicLeech) repo & GautamKumar for his [repo](https://github.com/gautamajay52/TorrentLeech-Gdrive)
 
 ## Installing
 
