@@ -28,8 +28,8 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
 ##### Set Rclone
 
 1. Download Rclone from Here > [DOWNLOAD](https://rclone.org/downloads/)
-2. Extract and run cmd from the Extracted folder.
-3. RUN rclone config and follow the onscreen instructions!
+2. Extract the downloaded zip file and run cmd(hold shift and right click) from the Extracted folder.
+3. RUN "rclone config" and follow the onscreen instructions!
 4. If done Correctly, you'll get some thing like this in the cmd ;
 
     type = drive
