@@ -44,6 +44,8 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
 
 ##### Set IndexURL
 
+Watch this video for better understanding > [InFoTel](https://www.youtube.com/watch?v=h1RFMgFhCs0&t=155s)
+
 1. Go to https://gdindex-code-builder.glitch.me/, and follow its instructions. Copy the code!
 2. Go to https://dash.cloudflare.com/c8bf985554bb03b455f683f8cafe25f2/workers/new and login/signup.
 3. Paste the code in script section. Then save and deploy.
