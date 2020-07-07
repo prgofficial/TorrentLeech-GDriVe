@@ -5,6 +5,8 @@
 
 A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
 
+You can use this as normal Torrent leecher also! (Just ignore the Rclone and Index URL part)
+
 # Benefits :-
     ✓ Telegram File mirrorring to cloud along with its unzipping, unrar and untar
     ✓ Drive/Teamdrive support/All other cloud services rclone.org supports
