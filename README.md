@@ -22,9 +22,35 @@ This is a leech to FILE repo! Leech to STREAM availabe here > [Patch-1](https://
 
 ## Installing
 
-### HEROKU SUPPORT REMOVED
+## HEROKU SUPPORT REMOVED
 
-# IT's BETTER THAT WAY !!
+### IT's BETTER THAT WAY !!
+
+### The Legacy Way
+
+Simply clone the repository and run the main file:
+
+```sh
+git clone https://github.com/SpEcHiDe/PublicLeech.git
+cd PublicLeech
+virtualenv -p /usr/bin/python3 venv
+. ./venv/bin/activate
+pip install -r requirements.txt
+# <Create config.py appropriately>
+python3 -m tobrot
+```
+
+### an example config.py 👇
+```py
+from tobrot.sample_config import Config
+
+class Config(Config):
+  TG_BOT_TOKEN = ""
+  APP_ID = 6
+  API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+  AUTH_CHANNEL = -1001234567890
+```
+
 
 ### YOU NEED UNLIMITED TEAM/SHARE DRIVE IN ORDER TO USE THE GDRIVE FUNCIONS Flawlessly (normal GDRIVE has 15 gb of storage only)
 
