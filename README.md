@@ -22,10 +22,9 @@ This is a leech to FILE repo! Leech to STREAM availabe here > [Patch-1](https://
 
 ## Installing
 
-### The Easy Way
+### HEROKU SUPPORT REMOVED
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prgofficial/TorrentLeech-GDriVe)
-
+# IT's BETTER THAT WAY !!
 
 ### YOU NEED UNLIMITED TEAM/SHARE DRIVE IN ORDER TO USE THE GDRIVE FUNCIONS Flawlessly (normal GDRIVE has 15 gb of storage only)
 
