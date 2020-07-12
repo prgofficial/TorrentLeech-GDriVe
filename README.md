@@ -7,7 +7,8 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
 
 You can use this as normal Torrent leecher also! (Just ignore the Rclone and Index URL part)
 
-This is a leech to FILE repo! Leech to STREAM availabe here > [Patch-1](https://github.com/prgofficial/TorrentLeech-GDriVe/tree/patch-1)
+This is a leech to FILE repo! Leech to STREAM(file) availabe here > [Patch-1](https://github.com/prgofficial/TorrentLeech-GDriVe/tree/patch-1)
+
 
 # Benefits :-
     ✓ Telegram File mirrorring to cloud along with its unzipping, unrar and untar
@@ -22,9 +23,10 @@ This is a leech to FILE repo! Leech to STREAM availabe here > [Patch-1](https://
 
 ## Installing
 
-## HEROKU SUPPORT REMOVED
+### The Easy Way
 
-### IT's BETTER THAT WAY !!
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prgofficial/TorrentLeech-GDriVe)
+
 
 ### The Legacy Way
 
@@ -58,7 +60,7 @@ class Config(Config):
 
 1. Download Rclone from Here > [DOWNLOAD](https://rclone.org/downloads/)
 2. Extract the downloaded zip file and run cmd(hold shift and right click) from the Extracted folder.
-3. RUN "rclone config" and follow the onscreen instructions!
+3. RUN rclone config and follow the onscreen instructions!
 4. If done Correctly, you'll get some thing like this in the cmd ;
 
     type = drive
@@ -72,8 +74,6 @@ class Config(Config):
 
 
 ##### Set IndexURL
-
-Watch this video for better understanding > [InFoTel](https://www.youtube.com/watch?v=h1RFMgFhCs0&t=155s)
 
 1. Go to https://gdindex-code-builder.glitch.me/, and follow its instructions. Copy the code!
 2. Go to https://dash.cloudflare.com/c8bf985554bb03b455f683f8cafe25f2/workers/new and login/signup.
