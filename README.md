@@ -1,13 +1,11 @@
-# For Support join here [MoviezOnlySupport](https://telegram.dog/moviezonlysupport)
-# Working example group [Leech Here](https://telegram.dog/leechtorrentmoviesonly)
+## For Support join here [MoviezOnlySupport](https://telegram.dog/moviezonlysupport)
+## Working example group [Leech Here](https://telegram.dog/leechtorrentmoviesonly)
 
 # Telegram Torrent Leecher 🔥🤖
 
-A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
+### A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-You can use this as normal Torrent leecher also! (Just ignore the Rclone and Index URL part)
-
-This is a leech to FILE repo! Leech to STREAM(file) availabe here > [Patch-1](https://github.com/prgofficial/TorrentLeech-GDriVe/tree/patch-1)
+### This is a leech to FILE repo! Leech to STREAM(file) availabe here > [Patch-1](https://github.com/prgofficial/TorrentLeech-GDriVe/tree/patch-1)
 
 
 # Benefits :-
