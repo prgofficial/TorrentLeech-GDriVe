@@ -5,7 +5,7 @@
 
 ### A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-### This is a leech to FILE repo! Leech to STREAM(file) availabe here > [Patch-1](https://github.com/prgofficial/TorrentLeech-GDriVe/tree/patch-1)
+### This is a leech to FILE repo! Leech to STREAM(video) availabe here > [Patch-1](https://github.com/prgofficial/TorrentLeech-GDriVe/tree/patch-1)
 
 
 # Benefits :-
