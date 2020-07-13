@@ -19,14 +19,14 @@
 
 ### Credit goes to SpEcHiDe for his [Publicleech](https://github.com/SpEcHiDe/PublicLeech) repo & GautamKumar for his [repo](https://github.com/gautamajay52/TorrentLeech-Gdrive)
 
+
 ## Installing
 
-### The Easy Way
+### HEROKU SUPPORT REMOVED
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prgofficial/TorrentLeech-GDriVe)
+### IT's BETTER THAT WAY !!
 
-
-### The Legacy Way
+## The Legacy Way
 
 Simply clone the repository and run the main file:
 
