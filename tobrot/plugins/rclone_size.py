@@ -36,7 +36,7 @@ async def check_size_g(client, message):
     await message.reply_text(f"🔊CloudInfo:\n\n{gautam}")
     await del_it.delete()
     
-    async def g_clearme(client, message):
+async def g_clearme(client, message):
     inline_keyboard = []
     ikeyboard = []
     ikeyboard.append(InlineKeyboardButton("Yes 🚫", callback_data=("yesdoit").encode("UTF-8")))
