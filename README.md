@@ -19,6 +19,7 @@
     ✓ Get total size of your working cloud directory
     ✓ You can also upload files downloaded from /ytdl command to gdrive using `/ytdl gdrive` command.
     ✓ You can also deploy this on your VPS
+    ✓ Added /clearall command to clear the downloads which are not deleted automatically.
 
 ### Credit goes to SpEcHiDe for his [Publicleech](https://github.com/SpEcHiDe/PublicLeech) repo & GautamKumar for his [repo](https://github.com/gautamajay52/TorrentLeech-Gdrive)
 
