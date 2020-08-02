@@ -5,7 +5,7 @@
 
 ### A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-### This is a leech to FILE repo! Leech to STREAM(video) availabe here > [Patch-1](https://github.com/prgofficial/TorrentLeech-GDriVe/tree/patch-1)
+## This is a leech to FILE repo! Leech to STREAM(video) availabe here > [Stream](https://github.com/prgofficial/TorrentLeech-GDriVe/tree/stream)
 
 
 # Benefits :-
@@ -19,8 +19,10 @@
     ✓ Get total size of your working cloud directory
     ✓ You can also upload files downloaded from /ytdl command to gdrive using `/ytdl gdrive` command.
     ✓ You can also deploy this on your VPS
-    ✓ Added /clearall command to clear the downloads which are not deleted automatically.
-
+	✓ Added /clearall command to clear the downloads which are not deleted automatically.
+	✓ Added support for youtube playlist ( use /pytdl )
+	
+	
 ### Credit goes to SpEcHiDe for his [Publicleech](https://github.com/SpEcHiDe/PublicLeech) repo & GautamKumar for his [repo](https://github.com/gautamajay52/TorrentLeech-Gdrive)
 
 
@@ -34,15 +36,7 @@
 
 Simply clone the repository and run the main file:
 
-```sh
-git clone https://github.com/SpEcHiDe/PublicLeech.git
-cd PublicLeech
-virtualenv -p /usr/bin/python3 venv
-. ./venv/bin/activate
-pip install -r requirements.txt
 # <Create config.py appropriately>
-python3 -m tobrot
-```
 
 ### an example config.py 👇
 ```py
@@ -50,10 +44,22 @@ from tobrot.sample_config import Config
 
 class Config(Config):
   TG_BOT_TOKEN = ""
-  APP_ID = 6
-  API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
-  AUTH_CHANNEL = -1001234567890
+  APP_ID = ""
+  API_HASH = ""
+  AUTH_CHANNEL = ""
 ```
+
+
+
+```sh
+git clone https://github.com/prgofficial/TorrentLeech-GDriVe
+cd TorrentLeech-GDriVe
+virtualenv -p /usr/bin/python3 venv
+. ./venv/bin/activate
+pip install -r requirements.txt
+python3 -m tobrot
+```
+
 
 
 ### YOU NEED UNLIMITED TEAM/SHARE DRIVE IN ORDER TO USE THE GDRIVE FUNCIONS Flawlessly (normal GDRIVE has 15 gb of storage only)
@@ -167,6 +173,8 @@ sudo docker run TorrentLeech-Gdrive
 
 
 ## Credits, and Thanks to
+* SpEcHiDe for his [Publicleech](https://github.com/SpEcHiDe/PublicLeech) repo
+* GautamKumar for his [repo](https://github.com/gautamajay52/TorrentLeech-Gdrive)
 * [Dan Tès](https://telegram.dog/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
 * [Robots](https://telegram.dog/Robots) for their [@UploadBot](https://telegram.dog/UploadBot)
 * [@AjeeshNair](https://telegram.dog/AjeeshNait) for his [torrent.ajee.sh](https://torrent.ajee.sh)

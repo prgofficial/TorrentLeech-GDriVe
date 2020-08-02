@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    await message.reply_text("""Ask Here for any support > @MovieZoNlysuPPorT""", disable_web_page_preview=True)
+    await message.reply_text("""No one gonna HELP here!! Leech if you KNOW :) .\n\n PORN LEECH = Instant BAN""", disable_web_page_preview=True)
 
 
 async def rename_message_f(client, message):
