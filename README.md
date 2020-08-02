@@ -54,8 +54,8 @@ class Config(Config):
 ```sh
 git clone https://github.com/prgofficial/TorrentLeech-GDriVe
 cd TorrentLeech-GDriVe
-virtualenv -p /usr/bin/python3 venv
-. ./venv/bin/activate
+virtualenv -p python3 VENV
+. ./VENV/bin/activate
 pip install -r requirements.txt
 python3 -m tobrot
 ```
