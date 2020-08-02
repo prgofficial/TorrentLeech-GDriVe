@@ -250,7 +250,7 @@ async def upload_single_file(message, local_file_name, caption_str, from_user, e
             message_for_progress_display = await message.reply_text(
                 "starting upload of {}".format(os.path.basename(local_file_name))
             )
-        if local_file_name.upper().endswith(("WEBM")):
+        if local_file_name.upper().endswith(("MKV", "MP4", "WEBM")):
             metadata = extractMetadata(createParser(local_file_name))
             duration = 0
             if metadata.has("duration"):
